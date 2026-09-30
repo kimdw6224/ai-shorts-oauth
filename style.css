@@ -1,0 +1,5 @@
+body{margin:0;background:#141414;color:#f2f2f2;font:16px/1.7 system-ui,-apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 24px}
+h1{font-size:28px;margin:0 0 8px}h2{font-size:20px;margin:32px 0 8px}
+p,li{color:#d9d9d9}.muted{color:#afafaf;font-size:14px}
+a{color:#63c6ad}nav a{margin-right:16px}ul{padding-left:20px}
