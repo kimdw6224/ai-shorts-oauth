@@ -29,7 +29,7 @@
 <h2>권한 철회와 삭제</h2>
 <ul>
 <li>도구에서 <code>uv run python jobs/youtube_check.py revoke</code>를 실행하면 Google에 토큰 폐기를 즉시 요청하고, 저장된 토큰과 YouTube API로 받은 확인 결과 파일을 바로 삭제합니다.</li>
-<li><a href="https://security.google.com/settings/security/permissions">Google 보안 설정</a>에서도 언제든 도구의 접근을 철회할 수 있습니다. 이 경우 도구는 다음 실행에서 토큰이 더 이상 유효하지 않음을 확인하고, 저장된 토큰과 확인 결과 파일을 즉시 삭제합니다. 어떤 경우든 7일 안에 삭제를 마칩니다.</li>
+<li><a href="https://security.google.com/settings/security/permissions">Google 보안 설정</a>에서도 언제든 도구의 접근을 철회할 수 있습니다. 도구는 매일 한 번 토큰이 유효한지 확인하며, 철회된 것을 확인하면 저장된 토큰과 확인 결과 파일을 즉시 삭제합니다. 운영자 컴퓨터가 꺼져 있던 기간이 있어도 켜진 뒤 첫 확인에서 삭제하며, 어떤 경우든 30일 안에 삭제를 마칩니다.</li>
 <li>데이터 삭제 요청은 아래 연락처로 보내 주세요. 요청을 받은 날로부터 7일 안에 삭제합니다. 도구에서 데이터를 지워도 YouTube에 올라간 영상은 삭제되지 않으며, 영상 삭제는 YouTube에서 직접 해야 합니다.</li>
 </ul>
 <h2>Google API 서비스 사용자 데이터 정책</h2>
